@@ -231,10 +231,6 @@ export const section6 = [
 
 export const methodologyHeader = "Methodology";
 
-export const methodologyIntro = [
-    "This note describes the methodology used to analyze the data in the <em>Maroon</em> article <em>The Decline of the Liberal Arts at Chicago, by the Numbers</em>. A GitHub repository <a href='https://github.com/arijacob/chicago_majors/tree/main'>contains</a> all data and code used for the analysis."
-];
-
 export const methodologyDataHeader = "The Data";
 
 export const methodologyDataSubhead = "Where does the data come from?";

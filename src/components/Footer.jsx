@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import {
     methodologyHeader,
-    methodologyIntro,
     methodologyDataHeader,
     methodologyDataSubhead,
     methodologyData,
@@ -47,13 +46,6 @@ export default function Credits() {
                         <h2 className="text-2xl font-bold mb-4 font-serif">
                             {methodologyHeader}
                         </h2>
-                        {methodologyIntro.map((p, i) => (
-                            <p
-                                key={i}
-                                className="method-text text-base leading-relaxed mb-4 font-serif"
-                                dangerouslySetInnerHTML={{ __html: p }}
-                            />
-                        ))}
 
                         <h3 className="text-xl font-bold mt-8 mb-2 font-serif">
                             {methodologyDataHeader}
